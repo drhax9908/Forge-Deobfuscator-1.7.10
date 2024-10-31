@@ -40,7 +40,7 @@ public class Start {
         while((line = br.readLine()) != null) {
         	lines.add(line);
         }
-        br.close()
+        br.close();
         return lines;
     }
 	
