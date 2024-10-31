@@ -85,7 +85,7 @@ public class Start {
 
     			try{
 
-    				url = new URL("https://raw.githubusercontent.com/MinecraftForge/FML/master/conf/fields.csv");
+    				url = new URL("https://raw.githubusercontent.com/drhax9908/Forge-Deobfuscator-1.7.10/refs/heads/master/mappings/fields.csv");
 
     				is = url.openStream();
 
@@ -130,7 +130,7 @@ public class Start {
 
 		try{
 
-			url = new URL("https://raw.githubusercontent.com/MinecraftForge/FML/master/conf/methods.csv");
+			url = new URL("https://raw.githubusercontent.com/drhax9908/Forge-Deobfuscator-1.7.10/refs/heads/master/mappings/methods.csv");
 
 			is = url.openStream();
 
